@@ -1,4 +1,4 @@
-# lines
+## About this passion project
 
 a small free web game about running a bar that hosts themed party lines.
 
