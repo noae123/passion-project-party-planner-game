@@ -1,0 +1,50 @@
+[
+  {
+    "id": "rebels",
+    "name": "Rebels",
+    "groupSize": [2, 5],
+    "spend": 2,
+    "becomesRegularAfter": 4,
+    "notes": "A small crew. They spend a little, and they don't call a room home until it has earned it."
+  },
+  {
+    "id": "ravers",
+    "name": "Ravers",
+    "groupSize": [4, 12],
+    "spend": 3,
+    "becomesRegularAfter": 2,
+    "notes": "They arrive in a pack and pay a normal night. If the floor is right, they are back the next time."
+  },
+  {
+    "id": "queers",
+    "name": "Queers",
+    "groupSize": [2, 7],
+    "spend": 3,
+    "becomesRegularAfter": 2,
+    "notes": "They come with their people and they'll spend on a night that feels made for them. Once it does, they belong quickly."
+  },
+  {
+    "id": "young_crowd",
+    "name": "Young Crowd",
+    "groupSize": [4, 14],
+    "spend": 1,
+    "becomesRegularAfter": 5,
+    "notes": "A big group, and they want it cheap. They fill a room and then try the next one. This place becomes theirs slowly, if it does at all."
+  },
+  {
+    "id": "elite",
+    "name": "Elite",
+    "groupSize": [1, 3],
+    "spend": 5,
+    "becomesRegularAfter": 5,
+    "notes": "Two or three at a table. They will spend, and a cheap or sloppy night sends them away. They are the last to become regulars."
+  },
+  {
+    "id": "artists",
+    "name": "Artists",
+    "groupSize": [1, 4],
+    "spend": 2,
+    "becomesRegularAfter": 3,
+    "notes": "A few people who came for the work, not the bill. They come back when the night keeps being about something."
+  }
+]

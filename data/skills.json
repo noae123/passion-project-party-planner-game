@@ -1,0 +1,107 @@
+{
+  "programming": [
+    {
+      "id": "theme_craft",
+      "name": "Theme Craft",
+      "cost": 1,
+      "requires": [],
+      "effects": {
+        "unlocks": ["techno", "trance", "disco", "dark_underground", "goth", "karaoke", "drinking_games", "beer_pong", "trivia_competitions", "dance_battles", "beer_tasting", "comedy_competitions"]
+      },
+      "summary": "Study a darker set of sounds, a goth dress code, an underground room, and a few things for people to do."
+    },
+    {
+      "id": "specific_nights",
+      "name": "Specific Nights",
+      "cost": 1,
+      "requires": ["theme_craft"],
+      "effects": {
+        "unlocks": ["psytrance", "metal", "indie", "hip_hop", "rave_wear", "extravagant", "costume", "fetish", "formal", "psychedelic", "rebellious", "nostalgic", "futuristic", "luxurious", "costume_contests", "drag_performance", "fashion_shows", "body_painting", "graffiti_art", "open_mic_performing", "poetry_slams", "live_painting", "cosplaying", "diy_craft_workshops", "costume_making_workshops", "clothing_customization", "photography_contests", "flea_market_trading", "artist_merchandise_market", "craft_competitions", "mask_making_workshops", "pin_trading", "amateur_talent_shows", "scavenger_hunts", "food_competitions", "board_game_tournaments", "baking_competitions", "tarot_reading", "fire_spinning"]
+      },
+      "summary": "Study the stranger genres, dress codes, atmospheres, and things for people to do."
+    },
+    {
+      "id": "fuller_nights",
+      "name": "Fuller Nights",
+      "cost": 1,
+      "requires": ["specific_nights"],
+      "effects": {
+        "planLimit": 10,
+        "unlocks": ["famous_djs", "live_bands", "themed_performances", "immersive_visuals", "guest_artists", "special_headliner", "fire_poi_workshops", "fetish_play", "camping", "bonfire_rituals", "skinny_dipping", "hot_tubbing", "poker", "blackjack", "cocktail_making_competitions", "cocktail_mixing", "ballroom_dancing", "wine_tasting", "art_auctions", "yoga_sessions", "larping", "tabletop_roleplaying", "live_action_mystery_games"]
+      },
+      "summary": "A night can hold 10 choices, and you can book a draw plus the stranger things people do."
+    }
+  ],
+  "bar": [
+    {
+      "id": "better_drinks",
+      "name": "Better Drinks",
+      "cost": 1,
+      "requires": [],
+      "effects": { "spendBonus": 4 },
+      "summary": "Each guest spends a little more. The night pays for the next one."
+    },
+    {
+      "id": "remember_orders",
+      "name": "Remember Orders",
+      "cost": 1,
+      "requires": ["better_drinks"],
+      "effects": { "spendBonus": 3, "regularBonus": 0.05 },
+      "summary": "Someone remembers what they drink. Regulars start to trust the place."
+    }
+  ],
+  "security": [
+    {
+      "id": "calm_door",
+      "name": "Calm Door",
+      "cost": 1,
+      "requires": [],
+      "effects": { "crowdBonus": 0.05 },
+      "summary": "The door feels safe. A few more people stay instead of turning around."
+    },
+    {
+      "id": "look_after",
+      "name": "Look After the Room",
+      "cost": 1,
+      "requires": ["calm_door"],
+      "effects": { "tagBonus": { "intimate": 0.08 } },
+      "summary": "Small nights feel looked after, so the people who need that actually show up."
+    }
+  ],
+  "community": [
+    {
+      "id": "learn_names",
+      "name": "Learn Names",
+      "cost": 1,
+      "requires": [],
+      "effects": { "regularBonus": 0.1 },
+      "summary": "Regulars come back more often once the place knows who they are."
+    },
+    {
+      "id": "bring_someone",
+      "name": "Ask Them to Bring Someone",
+      "cost": 1,
+      "requires": ["learn_names"],
+      "effects": { "tagBonus": { "community": 0.12 } },
+      "summary": "Nights that invite a friend start to work."
+    }
+  ],
+  "venue": [
+    {
+      "id": "room_flow",
+      "name": "Room Flow",
+      "cost": 1,
+      "requires": [],
+      "effects": { "crowdBonus": 0.03 },
+      "summary": "People can find a place to stand. Slightly more of them stay."
+    },
+    {
+      "id": "protect_the_small_room",
+      "name": "Protect the Small Room",
+      "cost": 1,
+      "requires": ["room_flow"],
+      "effects": { "tagBonus": { "small_room": 0.1 } },
+      "summary": "The chill room stays a chill room, and the people who need it can tell."
+    }
+  ]
+}

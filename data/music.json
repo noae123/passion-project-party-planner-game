@@ -1,0 +1,148 @@
+{
+  "id": "music",
+  "label": "Music genre",
+  "summary": "What people come to hear.",
+  "min": 1,
+  "elements": [
+    {
+      "id": "techno",
+      "name": "Techno",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "trance",
+      "name": "Trance",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "psytrance",
+      "name": "Psytrance",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "house",
+      "name": "House",
+      "color": "#7f9e8a",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "pop",
+      "name": "Pop",
+      "color": "#7f9e8a",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "rock",
+      "name": "Rock",
+      "color": "#7f9e8a",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "metal",
+      "name": "Metal",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "indie",
+      "name": "Indie",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "hip_hop",
+      "name": "Hip-hop",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "disco",
+      "name": "Disco",
+      "color": "#7f9e8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    }
+  ]
+}

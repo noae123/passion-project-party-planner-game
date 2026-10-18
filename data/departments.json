@@ -1,0 +1,27 @@
+[
+  {
+    "id": "programming",
+    "name": "Programming / Line Creation",
+    "summary": "The writers. They invent the themes and the concepts that give a night a reason to exist."
+  },
+  {
+    "id": "bar",
+    "name": "Bar / Service",
+    "summary": "Drinks, remembering an order, and the small feeling that someone expected you."
+  },
+  {
+    "id": "security",
+    "name": "Security & Care",
+    "summary": "Keeps the night safe so people who usually feel unwelcome can stay."
+  },
+  {
+    "id": "community",
+    "name": "Community / Regulars",
+    "summary": "Who comes back, who brings a friend, and whether the place starts to feel like it is theirs."
+  },
+  {
+    "id": "venue",
+    "name": "Venue / Rooms",
+    "summary": "Which rooms are open. A room changes the crowd as much as the theme does."
+  }
+]

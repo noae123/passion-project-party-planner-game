@@ -1,0 +1,120 @@
+{
+  "id": "atmosphere",
+  "label": "Atmosphere & theme",
+  "summary": "How the party feels.",
+  "min": 1,
+  "elements": [
+    {
+      "id": "dark_underground",
+      "name": "Dark and underground",
+      "color": "#b089c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "playful",
+      "name": "Playful",
+      "color": "#b089c4",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "luxurious",
+      "name": "Luxurious",
+      "color": "#b089c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "intimate",
+      "name": "Intimate",
+      "color": "#b089c4",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "psychedelic",
+      "name": "Psychedelic",
+      "color": "#b089c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "rebellious",
+      "name": "Rebellious",
+      "color": "#b089c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "nostalgic",
+      "name": "Nostalgic",
+      "color": "#b089c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "futuristic",
+      "name": "Futuristic",
+      "color": "#b089c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    }
+  ]
+}

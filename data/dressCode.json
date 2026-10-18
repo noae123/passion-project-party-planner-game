@@ -1,0 +1,121 @@
+{
+  "id": "dress",
+  "label": "Dress code",
+  "summary": "How people express themselves.",
+  "min": 1,
+  "max": 1,
+  "elements": [
+    {
+      "id": "casual",
+      "name": "Casual",
+      "color": "#d36b8a",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "fashionable",
+      "name": "Fashionable",
+      "color": "#d36b8a",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "rave_wear",
+      "name": "Rave",
+      "color": "#d36b8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "extravagant",
+      "name": "Extravagant",
+      "color": "#d36b8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "goth",
+      "name": "Goth",
+      "color": "#d36b8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "fetish",
+      "name": "Fetish",
+      "color": "#d36b8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "costume",
+      "name": "Costume",
+      "color": "#d36b8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    },
+    {
+      "id": "formal",
+      "name": "Formal",
+      "color": "#d36b8a",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 1
+      }
+    }
+  ]
+}

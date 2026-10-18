@@ -24,9 +24,43 @@ Later in development I'm planning to add real-life events like the coronavirus o
 - Keep the community going (or watch it drift) based on the nights you make
 
 ## Status
-Early. Still figuring out the simplest way to make this run in a browser. No accounts, no payments, just the game.
+Early, and playable in the browser. Plan a themed night, see who is likely to show up, run the week, and spend what you earn on rooms and skills. No accounts, no payments, just the game.
 
 If you ever went to a night that made you feel less alone, or if you just want to talk about the idea, open an issue.
+
+## Run it
+From this folder:
+
+```
+python -m http.server 8080
+```
+
+Open http://localhost:8080
+
+The game saves in this browser. Reset is in the top bar. After you edit a JSON file, refresh the page. Reset if you also want the starting money, rooms, and week back.
+
+## Where to add content
+New people, themes, rooms, and skills are data edits. The JavaScript reads those files. It does not need a change just to add content.
+
+- New customer type → add an object in `data/customers.json`
+- New music, draw, dress code, activity, or atmosphere → add an object to the `elements` array in `data/music.json`, `data/mainAttraction.json`, `data/dressCode.json`, `data/activities.json`, or `data/atmosphere.json`, with an `attraction` score from 1 to 5 for each people type
+- New skill → add a node in `data/skills.json` under the department id
+- New room → add an object in `data/rooms.json`
+- New department → add it in `data/departments.json` and a matching key in `data/skills.json`
+- Starting money, open rooms, rent, and how strongly tags pull people → `data/startingState.json`
+
+Who walks in is the average of the 1-to-5 scores on the choices in that night. A night starts at 5 choices. Music and atmosphere need at least one, dress code is exactly one, and the draw and the activities can be left off. `startsUnlocked` marks what is available on week 1. Programming skills unlock the rest, and Fuller Nights raises the cap to 10.
+
+```
+index.html
+css/style.css
+js/main.js            starts the game and loads data
+js/game.js            week, money, save
+js/ui/                timeline, line creator, departments, rooms
+js/systems/           customers, parties, skills
+data/                 the content
+assets/               images later
+```
 
 ## License
 Free. Do whatever you want with it.

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "main_floor",
+    "name": "Main Floor",
+    "summary": "Where a night gets loud and full.",
+    "capacity": 80,
+    "tags": ["huge_crowd", "mainstream"],
+    "unlockCost": 0,
+    "startsUnlocked": true
+  },
+  {
+    "id": "small_room",
+    "name": "Small Room / Chill",
+    "summary": "The quiet room. Easier for people who need a reason to be there.",
+    "capacity": 24,
+    "tags": ["intimate", "small_room", "theme_heavy"],
+    "unlockCost": 0,
+    "startsUnlocked": true
+  },
+  {
+    "id": "yard",
+    "name": "Yard / Open Air",
+    "summary": "Open air. It makes the night bigger, and a bigger night is not for everyone.",
+    "capacity": 40,
+    "tags": ["open_air", "huge_crowd"],
+    "unlockCost": 500,
+    "startsUnlocked": false
+  },
+  {
+    "id": "red_room",
+    "name": "Red Room",
+    "summary": "The special one. Small, and people treat the theme as the point of coming.",
+    "capacity": 16,
+    "tags": ["intimate", "theme_heavy", "story", "special"],
+    "unlockCost": 900,
+    "startsUnlocked": false
+  }
+]

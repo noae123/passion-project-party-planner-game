@@ -1,0 +1,24 @@
+{
+  "money": 400,
+  "week": 1,
+  "skillPoints": 1,
+  "weeklyRent": 35,
+  "spendPerGuest": 12,
+  "horizonWeeks": 4,
+  "skillPointEvery": 2,
+  "planLimit": 5,
+  "attendance": {
+    "attractBonus": 0.12,
+    "avoidPenalty": 0.18,
+    "cleanMatchBonus": 0.05,
+    "avoidOnlyMultiplier": 0.4,
+    "regularBonus": 0.12,
+    "minChance": 0,
+    "maxChance": 0.95
+  },
+  "unlockedRooms": ["main_floor", "small_room"],
+  "openRooms": ["small_room"],
+  "unlockedSkills": [],
+  "regulars": {},
+  "lines": []
+}

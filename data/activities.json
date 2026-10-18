@@ -1,0 +1,708 @@
+{
+  "id": "activities",
+  "label": "Activities & experience",
+  "summary": "What people do beyond listening to music.",
+  "min": 0,
+  "elements": [
+    {
+      "id": "fashion_shows",
+      "name": "Fashion Shows",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 4,
+        "queers": 4,
+        "young_crowd": 2,
+        "elite": 5,
+        "artists": 5
+      }
+    },
+    {
+      "id": "drag_performance",
+      "name": "Drag Performance",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 3,
+        "queers": 5,
+        "young_crowd": 3,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "costume_contests",
+      "name": "Costume Contests",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 5,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "flea_market_trading",
+      "name": "Flea Market Trading",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "photography_contests",
+      "name": "Photography Contests",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 3,
+        "queers": 2,
+        "young_crowd": 2,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "fire_spinning",
+      "name": "Fire Spinning",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 5,
+        "queers": 3,
+        "young_crowd": 4,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "body_painting",
+      "name": "Body Painting",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 5,
+        "queers": 5,
+        "young_crowd": 4,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "mask_making_workshops",
+      "name": "Mask-Making Workshops",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 5,
+        "queers": 4,
+        "young_crowd": 3,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "artist_merchandise_market",
+      "name": "Artist Merchandise Market",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 4,
+        "queers": 4,
+        "young_crowd": 2,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "diy_craft_workshops",
+      "name": "DIY Craft Workshops",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "open_mic_performing",
+      "name": "Open Mic Performing",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 2,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "craft_competitions",
+      "name": "Craft Competitions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 4,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "poetry_slams",
+      "name": "Poetry Slams",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 1,
+        "queers": 2,
+        "young_crowd": 1,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "live_painting",
+      "name": "Live Painting",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 3,
+        "queers": 2,
+        "young_crowd": 1,
+        "elite": 2,
+        "artists": 5
+      }
+    },
+    {
+      "id": "cosplaying",
+      "name": "Cosplaying",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 2,
+        "queers": 3,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 5
+      }
+    },
+    {
+      "id": "tabletop_roleplaying",
+      "name": "Tabletop Roleplaying",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 1,
+        "queers": 3,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 5
+      }
+    },
+    {
+      "id": "costume_making_workshops",
+      "name": "Costume-Making Workshops",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 5,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 1,
+        "artists": 5
+      }
+    },
+    {
+      "id": "clothing_customization",
+      "name": "Clothing Customization",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 4,
+        "queers": 4,
+        "young_crowd": 3,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "graffiti_art",
+      "name": "Graffiti Art",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 1,
+        "artists": 5
+      }
+    },
+    {
+      "id": "amateur_talent_shows",
+      "name": "Amateur Talent Shows",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 4,
+        "queers": 2,
+        "young_crowd": 3,
+        "elite": 3,
+        "artists": 5
+      }
+    },
+    {
+      "id": "pin_trading",
+      "name": "Pin-Trading",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 1,
+        "artists": 5
+      }
+    },
+    {
+      "id": "tarot_reading",
+      "name": "Tarot Reading",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 4,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 2,
+        "artists": 4
+      }
+    },
+    {
+      "id": "art_auctions",
+      "name": "Art Auctions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 2,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 5,
+        "artists": 4
+      }
+    },
+    {
+      "id": "baking_competitions",
+      "name": "Baking Competitions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 2,
+        "queers": 2,
+        "young_crowd": 3,
+        "elite": 3,
+        "artists": 4
+      }
+    },
+    {
+      "id": "dance_battles",
+      "name": "Dance Battles",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 5,
+        "queers": 4,
+        "young_crowd": 5,
+        "elite": 4,
+        "artists": 4
+      }
+    },
+    {
+      "id": "live_action_mystery_games",
+      "name": "Live-Action Mystery Games",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 2,
+        "queers": 1,
+        "young_crowd": 1,
+        "elite": 2,
+        "artists": 4
+      }
+    },
+    {
+      "id": "board_game_tournaments",
+      "name": "Board Game Tournaments",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 2,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 2,
+        "artists": 4
+      }
+    },
+    {
+      "id": "larping",
+      "name": "LARPing",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 2,
+        "queers": 2,
+        "young_crowd": 1,
+        "elite": 1,
+        "artists": 4
+      }
+    },
+    {
+      "id": "cocktail_making_competitions",
+      "name": "Cocktail-Making Competitions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 4,
+        "elite": 5,
+        "artists": 3
+      }
+    },
+    {
+      "id": "cocktail_mixing",
+      "name": "Cocktail Mixing",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 2,
+        "queers": 4,
+        "young_crowd": 4,
+        "elite": 5,
+        "artists": 3
+      }
+    },
+    {
+      "id": "ballroom_dancing",
+      "name": "Ballroom Dancing",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 2,
+        "queers": 2,
+        "young_crowd": 1,
+        "elite": 5,
+        "artists": 3
+      }
+    },
+    {
+      "id": "dancing",
+      "name": "Dancing",
+      "color": "#7ea0c4",
+      "startsUnlocked": true,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 5,
+        "queers": 5,
+        "young_crowd": 5,
+        "elite": 4,
+        "artists": 3
+      }
+    },
+    {
+      "id": "scavenger_hunts",
+      "name": "Scavenger Hunts",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 5,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 1,
+        "artists": 3
+      }
+    },
+    {
+      "id": "beer_tasting",
+      "name": "Beer Tasting",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 4,
+        "elite": 2,
+        "artists": 3
+      }
+    },
+    {
+      "id": "trivia_competitions",
+      "name": "Trivia Competitions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 2,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 3,
+        "artists": 3
+      }
+    },
+    {
+      "id": "fire_poi_workshops",
+      "name": "Fire Poi Workshops",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 5,
+        "queers": 2,
+        "young_crowd": 2,
+        "elite": 1,
+        "artists": 2
+      }
+    },
+    {
+      "id": "wine_tasting",
+      "name": "Wine Tasting",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 3,
+        "young_crowd": 2,
+        "elite": 5,
+        "artists": 2
+      }
+    },
+    {
+      "id": "comedy_competitions",
+      "name": "Comedy Competitions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 3,
+        "queers": 2,
+        "young_crowd": 3,
+        "elite": 1,
+        "artists": 2
+      }
+    },
+    {
+      "id": "fetish_play",
+      "name": "Fetish Play",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 4,
+        "queers": 5,
+        "young_crowd": 2,
+        "elite": 4,
+        "artists": 2
+      }
+    },
+    {
+      "id": "camping",
+      "name": "Camping",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 5,
+        "queers": 3,
+        "young_crowd": 3,
+        "elite": 1,
+        "artists": 2
+      }
+    },
+    {
+      "id": "bonfire_rituals",
+      "name": "Bonfire Rituals",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 5,
+        "ravers": 5,
+        "queers": 3,
+        "young_crowd": 4,
+        "elite": 2,
+        "artists": 2
+      }
+    },
+    {
+      "id": "poker",
+      "name": "Poker",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 1,
+        "queers": 2,
+        "young_crowd": 4,
+        "elite": 4,
+        "artists": 2
+      }
+    },
+    {
+      "id": "food_competitions",
+      "name": "Food Competitions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 4,
+        "elite": 2,
+        "artists": 2
+      }
+    },
+    {
+      "id": "skinny_dipping",
+      "name": "Skinny-Dipping",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 4,
+        "ravers": 5,
+        "queers": 4,
+        "young_crowd": 2,
+        "elite": 3,
+        "artists": 2
+      }
+    },
+    {
+      "id": "hot_tubbing",
+      "name": "Hot Tubbing",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 4,
+        "queers": 4,
+        "young_crowd": 4,
+        "elite": 5,
+        "artists": 2
+      }
+    },
+    {
+      "id": "blackjack",
+      "name": "Blackjack",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 1,
+        "queers": 2,
+        "young_crowd": 4,
+        "elite": 4,
+        "artists": 2
+      }
+    },
+    {
+      "id": "drinking_games",
+      "name": "Drinking Games",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 3,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 5,
+        "elite": 1,
+        "artists": 2
+      }
+    },
+    {
+      "id": "beer_pong",
+      "name": "Beer Pong",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 2,
+        "ravers": 3,
+        "queers": 2,
+        "young_crowd": 5,
+        "elite": 1,
+        "artists": 2
+      }
+    },
+    {
+      "id": "yoga_sessions",
+      "name": "Yoga Sessions",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 1,
+        "queers": 2,
+        "young_crowd": 1,
+        "elite": 4,
+        "artists": 1
+      }
+    },
+    {
+      "id": "karaoke",
+      "name": "Karaoke",
+      "color": "#7ea0c4",
+      "startsUnlocked": false,
+      "attraction": {
+        "rebels": 1,
+        "ravers": 3,
+        "queers": 3,
+        "young_crowd": 4,
+        "elite": 1,
+        "artists": 1
+      }
+    }
+  ]
+}
